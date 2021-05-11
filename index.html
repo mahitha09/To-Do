@@ -7,15 +7,24 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div class="container">
     <header>To-Do List</header>
     <p>Plan your day, plan your success!</p>
     <form>
-        <input type="text" class="todoinput">
-        <button class="addbtn">Add</button>
+        <input type="text" class="todo-input" placeholder="Type your ToDo here">
+        <button class="add-btn" type="submit"><i class="fa fa-plus-square fa-2x"></i></button>
     </form>
+
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
     </div>
+
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>

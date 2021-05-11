@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: pink;
 }
 
 .container{
@@ -23,3 +24,24 @@ header,form{
     justify-content: center;
     align-items: center;
 }
+
+button{
+    padding: 0.05rem;
+    border: none;
+    outline: none;
+    color: rgb(78,77,77);
+}
+
+button:hover{
+    
+}
+
+input[type="text"]{
+    width: 20%;
+    padding: 0.4rem;
+    font-size: 0.8em;
+    outline: none;
+    border: none;
+    background: white;
+}
+
