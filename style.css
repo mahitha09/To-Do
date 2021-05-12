@@ -2,46 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: pink;
 }
 
-.container{
+body{
+    background:rgb(184, 126, 241);
+}
+
+h1{
     text-align: center;
+    font-size: 5rem;
+    opacity: 0.7;
+    margin: 3rem;
+    cursor: pointer;
+    color: rebeccapurple;
 }
 
-p{
-    margin-top: -2%;
-    font-size: 1.2rem;
+form{
+    margin: auto;
+    max-width: 100%;
+    width: 400px;
 }
 
-header{
-    font-size: 3rem;
-}
-
-header,form{
-    min-height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-button{
-    padding: 0.05rem;
-    border: none;
+.input{
+    font-size: 0.9rem;
+    display: block;
+    width: 100%;
+    padding: 0.7rem 2rem;
     outline: none;
-    color: rgb(78,77,77);
+    border: 2px solid rgb(138, 94, 182);
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: rgb(252, 247, 247);
 }
 
-button:hover{
-    
+.todos{
+    background-color: rgb(252, 247, 247);
+    padding: 0;
+    margin-top: 10%;
+    list-style: none;
+    border-radius: 3px;
 }
 
-input[type="text"]{
-    width: 20%;
-    padding: 0.4rem;
-    font-size: 0.8em;
-    outline: none;
-    border: none;
-    background: white;
+.todos li{
+    padding: 0.7rem 2rem;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
 }
-
