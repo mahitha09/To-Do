@@ -20,7 +20,27 @@ h1{
 form{
     margin: auto;
     max-width: 100%;
-    width: 400px;
+    width: 350px;
+}
+
+.inputcont{
+    display:flex;
+}
+
+button{
+    width: 20%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease;
+
+}
+
+button:hover{
+    color: rebeccapurple;
 }
 
 .input{
@@ -44,7 +64,42 @@ form{
 }
 
 .todos li{
-    padding: 0.7rem 2rem;
-    font-size: 1.1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
     box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todos li div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-btn{
+    margin-left: 0.2rem;
+    color: rgb(131, 70, 192);
+    transition: 0.3s all ease;
+    font-size: 1.3rem;
+}
+
+.check-btn:hover{
+    color: mediumvioletred;
+}
+
+.delete-btn{
+    color: mediumvioletred;
+    font-size: 1.3rem;
+    transition: 0.3s all ease;
+
+}
+
+.delete-btn:hover{
+    color: rebeccapurple;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: #b5b5b5;
 }
