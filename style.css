@@ -108,9 +108,3 @@ button:hover{
     text-decoration: line-through;
     color: #b5b5b5;
 }
-
-.alert-txt{
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-}
